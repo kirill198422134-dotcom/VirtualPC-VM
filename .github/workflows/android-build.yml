@@ -36,9 +36,9 @@ jobs:
         run: |
           cd android
           ./gradlew assembleDebug
-
-      - name: Upload APK
-        uses: actions/upload-artifact@v3
-        with:
-          name: VirtualPC-VM-debug-apk
-          path: android/app/build/outputs/apk/debug/app-debug.apk
+- name: Upload APK
+  uses: actions/upload-artifact@v3.2.2
+  with:
+    name: VirtualPC-VM-debug-apk
+    path: android/app/build/outputs/apk/debug/app-debug.apk
+      
