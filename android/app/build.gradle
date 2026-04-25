@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.virtualpcvm"
+    namespace = "com.vectras.vm"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.virtualpcvm"
+        applicationId = "com.vectras.vm"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
